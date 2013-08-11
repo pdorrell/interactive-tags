@@ -47,11 +47,11 @@ The three arguments required are:
 
 Other CSS classes required are hard coded into the library. These are:
 
-* **"tag"** -- the class of each tag element.
-* **"tags"** -- the class of the element which contains the tag elements within
+* **"tag"** &ndash; the class of each tag element.
+* **"tags"** &ndash; the class of the element which contains the tag elements within
 each table of contents item (this is not required for the tag cloud element).
-* **"active"** -- a CSS class added to elements representing the currently selected tag
-* **"hidden"** -- the CSS class added to table of contents items filtered out by the 
+* **"active"** &ndash; a CSS class added to elements representing the currently selected tag
+* **"hidden"** &ndash; the CSS class added to table of contents items filtered out by the 
 current tag selection.
 
 To keep things simple, it is assumed that table of contents items, the tag cloud, tag elements
