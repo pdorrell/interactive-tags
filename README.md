@@ -29,7 +29,7 @@ How it works
 To use, include something like the following in the HTML body tag:
 
 <pre>
-<body onload="INTERACTIVE_TAGS.setup('pitch-blurb-and-tags','tag-cloud','tags-explanation')
+&lt;body onload="INTERACTIVE_TAGS.setup('pitch-blurb-and-tags','tag-cloud','tags-explanation')&gt;
 </pre>
 
 The three arguments required are:
