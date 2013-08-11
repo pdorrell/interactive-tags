@@ -1,30 +1,30 @@
 Interactive Tags
 ================
 
-**interactive-tags** is a Javascript library designed for use on a single-page
+**Interactive Tags** is a Javascript library designed for use on a single-page
 table of contents web page. The functionality provided is as follows:
 
 * Clicking on a defined tag element filters the table of contents to show only
-items tagged with that tag. The selected tag is added as an anchor element to the
+items tagged with that tag, and the selected tag is added as an anchor element to the
 current page location.
 
 * Accessing the page URL with a tag value specified in the URL anchor will show
 the table of contents with the same filtering.
 
-* Tags can be specfied with each item in the table of contents, and also in a separate
+* Tags can be specified with each item in the table of contents, and also in a separate
 tag cloud (which would generally be placed at the top of the page).
 
 * When a tag is selected, a "tag explanation" element is used to show the current
 status of the selection (i.e. that a tag has been selected, and therefore the user
 is looking at a filtered subset of the items in the table of contents).
 
-An Example
+An example
 ----------
 
 A working example of this library in action can be found at http://thinkinghard.com/blog/index.html.
 
-How it works
-------------
+How to use it
+-------------
 
 To use, include **interactive-tags.js** with a script tag in the HTML head section, i.e:
 
@@ -32,7 +32,7 @@ To use, include **interactive-tags.js** with a script tag in the HTML head secti
 &lt;script type="text/javascript" src="interactive-tags.js"&gt;&lt;/script&gt;
 </pre>
 
-and then include something like the following in the HTML body tag:
+and then call the **INTERACTIVE_TAGS.setup** function, for example in the HTML body tag as follows:
 
 <pre>
 &lt;body onload="INTERACTIVE_TAGS.setup('pitch-blurb-and-tags','tag-cloud','tags-explanation')&gt;
